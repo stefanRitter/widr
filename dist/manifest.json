@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+
+  "name": "Widr",
+  "description": "Make tumblr.com/dashboard full width",
+  "version": "0.0.1",
+
+  "permissions": [
+    "tabs", "http://www.tumblr.com/dashboard"
+  ],
+
+  "content_scripts": [ {
+    "css": [ "widr.css" ],
+    "matches": [ "http://www.tumblr.com/dashboard" ],
+    "run_at": "document_end"
+  } ]
+}

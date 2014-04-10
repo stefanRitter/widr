@@ -1,0 +1,19 @@
+html body #container { 
+  width: 100%;
+  min-width: 900px;
+  max-width: 1400px;
+  padding: 0;
+  margin: 0 auto;
+}
+
+html body #container #right_column {
+  width: 19%;
+}
+
+html body #container #left_column {
+  width: 80%;
+}
+
+html body #container #left_column .post_full {
+  width: auto
+}
