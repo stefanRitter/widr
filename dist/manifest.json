@@ -4,6 +4,11 @@
   "name": "Widr",
   "description": "Make tumblr.com/dashboard full width",
   "version": "0.0.1",
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
 
   "permissions": [
     "tabs", "http://www.tumblr.com/dashboard"
