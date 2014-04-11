@@ -2,12 +2,13 @@
   "manifest_version": 2,
 
   "name": "Widr",
-  "description": "Make tumblr.com/dashboard full width",
-  "version": "0.0.1",
+  "short_name": "Widr",
+  "description": "Makes tumblr.com/dashboard responsive to screen size for more comfortable post editing.",
+  "version": "0.0.4",
   "icons": {
-    "16": "icon16.png",
-    "48": "icon48.png",
-    "128": "icon128.png"
+    "16": "assets/icon16.png",
+    "48": "assets/icon48.png",
+    "128": "assets/icon128.png"
   },
 
   "permissions": [
