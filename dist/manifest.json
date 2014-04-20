@@ -3,8 +3,8 @@
 
   "name": "Widr",
   "short_name": "Widr",
-  "description": "Makes tumblr.com/dashboard responsive to screen size for more comfortable post editing.",
-  "version": "0.0.4",
+  "description": "Makes your tumblr.com/dashboard responsive to any screen size for more comfortable post editing.",
+  "version": "0.0.5",
   "icons": {
     "16": "assets/icon16.png",
     "48": "assets/icon48.png",
