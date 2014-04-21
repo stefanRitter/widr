@@ -4,7 +4,7 @@
   "name": "Widr",
   "short_name": "Widr",
   "description": "Makes your tumblr.com/dashboard responsive to any screen size for more comfortable post editing.",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "icons": {
     "16": "assets/icon16.png",
     "48": "assets/icon48.png",
@@ -12,12 +12,17 @@
   },
 
   "permissions": [
-    "tabs", "http://www.tumblr.com/dashboard"
+    "tabs",
+    "http://www.tumblr.com/*"
   ],
 
   "content_scripts": [ {
     "css": [ "widr.css" ],
-    "matches": [ "http://www.tumblr.com/dashboard" ],
+    "matches": [
+      "http://www.tumblr.com/dashboard",
+      "http://www.tumblr.com/blog/*",
+      "http://www.tumblr.com/new/*"
+    ],
     "run_at": "document_end"
   } ]
 }
